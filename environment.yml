@@ -1,8 +1,27 @@
-name: 522-practice2
+name: wine_test
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - pandas=2.3.3
-  - numpy=2.3.5
-  - conda-lock=3.0.4
+  - ipython
+  - numpy
+  - requests
+  - graphviz
+  - ipykernel
+  - scikit-learn
+  - matplotlib
+  - altair-all
+  - plotly
+  - python=3.12
+  - panel
+  - pandas
+  - lightgbm
+  - watchfiles
+  - nb_conda_kernels
+  - pip
+  - pandera
+  - jinja2
+  - python-graphviz
+  - deepchecks
+  - vega_datasets
+  - autograd
+  - conda-lock
